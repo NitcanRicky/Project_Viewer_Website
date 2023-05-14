@@ -216,11 +216,11 @@ body.dark-mode .file-item a {
 }
 
 body.dark-mode .file-item a:visited {
-  color: #f0f0f0;
+  color: rgb(148, 155, 164);
 }
 
 body.dark-mode .file-item a:hover {
-  color: #ffffff;
+ color: rgb(148, 155, 164);
 }
 
 .file-type {
