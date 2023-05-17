@@ -29,6 +29,23 @@
   margin-bottom: 20px;
 }
 
+.intro {
+  margin: 20px 0;
+  padding: 0 10px;
+  text-align: center;
+  }
+
+.intro h2 {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 24px;
+  }
+
+.intro p {
+  color: #666;
+  font-size: 16px;
+}
+
 /* Define layout for the tabs */
 .tabs {
   display: flex;
@@ -148,6 +165,11 @@ body.dark-mode .tab {
   color: rgb(148, 155, 164)
 }
 
+body.dark-mode .intro h2,
+body.dark-mode .intro p {
+  color: rgb(148, 155, 164);
+}
+
 /* Update hover state for tabs in dark mode */
 body.dark-mode .tab:hover {
   background-color: #3a3a3a;
@@ -216,11 +238,11 @@ body.dark-mode .file-item a {
 }
 
 body.dark-mode .file-item a:visited {
-  color: rgb(148, 155, 164);
+  color: #f0f0f0;
 }
 
 body.dark-mode .file-item a:hover {
- color: rgb(148, 155, 164);
+  color: #ffffff;
 }
 
 .file-type {
